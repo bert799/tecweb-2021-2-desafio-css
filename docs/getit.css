@@ -26,6 +26,24 @@ html,
 body {
   font-family: "Roboto", sans-serif;
 }
+.appbar {
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  height: 3rem;
+  width: 100%;
+  background-color: #f7d736;
+  flex-direction: row;
+  box-shadow: 4px 3px 8px 1px #969696;
+}
+.logo {
+  vertical-align: middle;
+  height: 3rem;
+}
+.subtitle {
+  padding: 10px;
+  vertical-align: middle;
+}
+.form-card 
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
