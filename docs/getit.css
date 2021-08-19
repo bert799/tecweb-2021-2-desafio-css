@@ -45,13 +45,34 @@ body {
 .subtitle {
   padding: 10px;
 }
-
-
-
 .container{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.form-card {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  width: 40%;
+  border-radius: 6px;
+  box-shadow: 4px 3px 8px 1px #969696;
+  margin-bottom: 2rem;
+}
+.form-card-title{
+  font-size: 1.1rem;
+  border: 0px;
+}
+.autoresize {
+  border: 0px;
+  height: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.btn {
+  border-radius: 6px;
+  padding: 0.5rem;
+  background-color: #f7d736;
 }
 
 .card-container{
