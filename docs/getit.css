@@ -25,25 +25,27 @@ Algumas informações úteis e dicas:
 html,
 body {
   font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 .appbar {
+  display: flex;
   padding: 0.5rem;
   margin-bottom: 2rem;
   height: 3rem;
   width: 100%;
   background-color: #f7d736;
   flex-direction: row;
+  align-items: center;
   box-shadow: 4px 3px 8px 1px #969696;
 }
 .logo {
-  vertical-align: middle;
   height: 3rem;
 }
 .subtitle {
   padding: 10px;
-  vertical-align: middle;
 }
-.container {
+.container{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,11 +53,26 @@ body {
 .form-card {
   display: flex;
   flex-direction: column;
-  padding: 0.3rem;
-  width: 50%;
+  padding: 0.5rem;
+  width: 40%;
   border-radius: 6px;
-  
   box-shadow: 4px 3px 8px 1px #969696;
+  margin-bottom: 2rem;
+}
+.form-card-title{
+  font-size: 1.1rem;
+  border: 0px;
+}
+.autoresize {
+  border: 0px;
+  height: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.btn {
+  border-radius: 6px;
+  padding: 0.5rem;
+  background-color: #f7d736;
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
