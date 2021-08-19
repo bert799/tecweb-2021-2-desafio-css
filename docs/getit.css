@@ -54,6 +54,29 @@ body {
   align-items: center;
 }
 
+.card-container{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.card{
+  background-color: #ead3a7;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+}
+
+.card-title{
+  font-family: 'Permanent Marker', cursive;
+  margin-bottom: 0.5rem;
+}
+
+.card-content{
+  font-family: 'Permanent Marker', cursive;
+  font-size:smaller;
+}
+
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
 /* .btn {
