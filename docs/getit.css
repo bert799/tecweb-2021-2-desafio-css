@@ -77,11 +77,12 @@ body {
 
 .card-container{
   display: flex;
-  flex-direction: row;
-
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card{
+  width: 16%;
   background-color: #ead3a7;
   margin: 0.2rem;
   padding: 0.2rem;
