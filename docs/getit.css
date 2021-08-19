@@ -43,7 +43,20 @@ body {
   padding: 10px;
   vertical-align: middle;
 }
-.form-card 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-card {
+  display: flex;
+  flex-direction: column;
+  padding: 0.3rem;
+  width: 50%;
+  border-radius: 6px;
+  
+  box-shadow: 4px 3px 8px 1px #969696;
+}
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
