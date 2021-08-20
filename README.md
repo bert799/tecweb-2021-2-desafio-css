@@ -4,7 +4,7 @@ Grupo:
 
 - Bernardo Cunha Capoferri
 - Guilherme Dantas Rameh
-- Link do GitHub Pages: COLOQUE O LINK AQUI (POR EXEMPLO: https://barbaratieko.github.io/tecweb-2021-2-desafio-css/)
+- Link do GitHub Pages: COLOQUE O LINK AQUI https://bert799.github.io/tecweb-2021-2-desafio-css/
 
 ## Desafio CSS
 
