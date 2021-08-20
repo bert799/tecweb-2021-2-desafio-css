@@ -55,7 +55,7 @@ body {
   flex-direction: column;
   padding: 0.5rem;
   width: 40%;
-  border-radius: 6px;
+  border-radius: 4px;
   box-shadow: 4px 3px 8px 1px #969696;
   margin-bottom: 2rem;
 }
@@ -68,24 +68,34 @@ body {
   height: 1rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  resize: none;
 }
 .btn {
-  border-radius: 6px;
+  border-radius: 4px;
   padding: 0.5rem;
+  border-width: 0px;
+  box-shadow: 1px 1px 6px 1px #969696;
   background-color: #f7d736;
 }
 
 .card-container{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  justify-content:space-evenly;
 }
 
 .card{
-  width: 16%;
-  background-color: #ead3a7;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.23);
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  width: 15%;
+  height: 6rem;
   margin: 0.2rem;
-  padding: 0.2rem;
+  padding: 0.3rem;
+  margin-bottom: 1rem;
   border-radius: 0.5rem;
 }
 
@@ -95,9 +105,66 @@ body {
 }
 
 .card-content{
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
   font-family: 'Permanent Marker', cursive;
   font-size:smaller;
+  color: #4c4c4c;
 }
+
+.card-color-1{
+  background-color: #ead3a7
+}
+.card-color-2{
+  background-color: #9de0f5;
+}
+.card-color-3{
+  background-color: #ef89ba;
+}
+.card-color-4{
+  background-color: #fae890;
+}
+.card-color-5{
+  background-color: #abe9c1;
+}
+
+.card-rotation-1{
+  transform: rotate(0deg);
+}
+.card-rotation-2{
+  transform: rotate(1deg);
+}
+.card-rotation-3{
+  transform: rotate(2deg);
+}
+.card-rotation-4{
+  transform: rotate(3deg);
+}
+.card-rotation-5{
+  transform: rotate(4deg);
+}
+.card-rotation-6{
+  transform: rotate(5deg);
+}
+.card-rotation-7{
+  transform: rotate(-1deg);
+}
+.card-rotation-8{
+  transform: rotate(-2deg);
+}
+.card-rotation-9{
+  transform: rotate(-3deg);
+}
+.card-rotation-10{
+  transform: rotate(-4deg);
+}
+.card-rotation-11{
+  transform: rotate(-5deg);
+}
+
+
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
